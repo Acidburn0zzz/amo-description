@@ -59,18 +59,26 @@ Max. 250 characters, no HTML.
 
 ## Screenshots
 
-<img src="https://raw.githubusercontent.com/RequestPolicyContinued/amo-images/master/001.png" />
+<img src="https://raw.githubusercontent.com/RequestPolicyContinued/amo-description/master/images/001.png" />
 
 You can see which requests have been allowed and chose to revoke permissions that you granted earlier.
 
----
+<br />
 
-<img src="https://raw.githubusercontent.com/RequestPolicyContinued/amo-images/master/002.png" />
+--
+
+<br />
+
+<img src="https://raw.githubusercontent.com/RequestPolicyContinued/amo-description/master/images/002.png" />
 
 You can allow requests from a specific origin site to a specific destination site. This way, you don't have to allow either all requests from that origin or all requests to that destination.
 
----
+<br />
 
-<img src="https://raw.githubusercontent.com/RequestPolicyContinued/amo-images/master/003.png" />
+--
+
+<br />
+
+<img src="https://raw.githubusercontent.com/RequestPolicyContinued/amo-description/master/images/003.png" />
 
 An example of a single website (lemonde.fr) that tries to have your browser make requests to many destinations.
