@@ -11,11 +11,8 @@ RequestPolicy is the project's [website](https://requestpolicycontinued.github.i
 You might prefer to read this description in a text editor or on [AMO](https://addons.mozilla.org/en-US/firefox/addon/requestpolicy-continued/).
 
 ```html
-<b>RequestPolicy's new version is under development as <a href="http://requestpolicycontinued.github.io/requestpolicy/">RequestPolicy Continued</a>.</b> Ultimately, I'd like RequestPolicy Continued to replace RequestPolicy.
-
-RequestPolicy development has been slow because I am working on <a href="https://serverpilot.io">ServerPilot</a>, a cPanel alternative for DigitalOcean servers. Thankfully, some great community members are taking over development of RequestPolicy.
-
-----
+This add-on is the continuation of <a href="https://addons.mozilla.org/en-US/firefox/addon/requestpolicy/">RequestPolicy</a>, which has been created by Justin Samuel until 2012. The current development focuses on <i>version 1.0</i>, but as v1.0 is still beta, there is still the old <i>0.5</i> release. Be careful, and don't install both this addon and the legacy addon.
+All development takes place <a href="https://github.com/RequestPolicyContinued/requestpolicy">at github</a>, so please go there first if you have any problems.
 
 RequestPolicy is an extension that improves the privacy and security of your browsing by giving you control over when cross-site requests are allowed by webpages you visit.
 
@@ -24,17 +21,19 @@ Cross-site requests are requests that your browser is told to make by a website 
 With RequestPolicy, the default for any cross-site request is to deny it. Users are notified when requests on the current page have been blocked (the status bar flag icon at the bottom right of your browser turns red). Clicking on this status bar flag icon gives you a menu where you can view and modify which requests are blocked and allowed. You can whitelist requests you approve of by origin site, destination site, or specific origin-to-destination.
 
 More information on the privacy reasons for using RequestPolicy is available at:
-<a href="https://www.requestpolicy.com/privacy">https://www.requestpolicy.com/privacy</a>
+https://requestpolicycontinued.github.io/#privacy
 
 More information on the security reasons for using RequestPolicy is available at:
-<a href="https://www.requestpolicy.com/security">https://www.requestpolicy.com/security</a>
+https://requestpolicycontinued.github.io/#security
 
 RequestPolicy is not a replacement for NoScript! Each focuses on different, important issues. For the best security, we recommend using both RequestPolicy and NoScript. More information on the difference between the two is available here:
-<a href="https://www.requestpolicy.com/faq#faq-noscript">https://www.requestpolicy.com/faq#faq-noscript</a>
+https://requestpolicycontinued.github.io/#faq-noscript
 
-`*********************************************************************************`
+*********************************************************************************
 NOTE: As with any extension that blocks content, some websites will not work properly until you have allowed the required content. If a website you visit isn't working, you can use the RequestPolicy menu to allow the cross-site requests the website needs. After a short while of using RequestPolicy, you will have whitelisted all of the required cross-site requests for sites you frequently visit and you will use the RequestPolicy menu much less.
-`*********************************************************************************`
+*********************************************************************************
+
+<a href="https://github.com/RequestPolicyContinued/amo-description">Edit this description on github.</a>
 ```
 
 Some notes for editing:
