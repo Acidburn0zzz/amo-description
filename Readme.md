@@ -12,7 +12,8 @@ You might prefer to read this description in a text editor or on [AMO](https://a
 
 ```html
 This add-on is the continuation of <a href="https://addons.mozilla.org/en-US/firefox/addon/requestpolicy/">RequestPolicy</a>, which has been created by Justin Samuel until 2012. The current development focuses on <i>version 1.0</i>, but as v1.0 is still beta, there is still the old <i>0.5</i> release. Be careful, and don't install both this addon and the legacy addon.
-All development takes place <a href="https://github.com/RequestPolicyContinued/requestpolicy">at github</a>, so please go there first if you have any problems.
+
+All development takes place <a href="https://github.com/RequestPolicyContinued/requestpolicy">at github</a>, so please go there first if you have any problems. Please also take a look at the <a href="https://requestpolicycontinued.github.io/Contributing">contributing information</a>
 
 RequestPolicy is an extension that improves the privacy and security of your browsing by giving you control over when cross-site requests are allowed by webpages you visit.
 
