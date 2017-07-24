@@ -11,9 +11,12 @@ RequestPolicy is the project's [website](https://requestpolicycontinued.github.i
 You might prefer to read this description in a text editor or on [AMO](https://addons.mozilla.org/en-US/firefox/addon/requestpolicy-continued/).
 
 ```html
+*********************************************************************************
+
 This add-on is the continuation of <a href="https://addons.mozilla.org/en-US/firefox/addon/requestpolicy/">RequestPolicy</a>, which has been created by Justin Samuel until 2012.
 
 <b>Quick Start:</b>
+
 <ul>
 <li><a href="https://requestpolicycontinued.github.io/Quickstart.html">Learn how to use RequestPolicy</a></li>
 <li><a href="https://requestpolicycontinued.github.io/FAQ.html">Frequently Asked Questions</a></li>
@@ -21,23 +24,37 @@ This add-on is the continuation of <a href="https://addons.mozilla.org/en-US/fir
 
 <b>If you have've got problems</b>, please visit our <a href="https://github.com/RequestPolicyContinued/requestpolicy">GitHub repository</a>. Make sure you've read our <a href="https://requestpolicycontinued.github.io/FAQ.html">FAQ</a> and the <a href="https://requestpolicycontinued.github.io/Contributing">contributing notes</a>. The ChangeLog is available <a href="https://github.com/RequestPolicyContinued/requestpolicy/blob/dev-1.0/ChangeLog.md">here</a>.
 
-<b>RequestPolicy</b> is an extension that improves the privacy and security of your browsing by giving you control over when cross-site requests are allowed by webpages you visit.
 
-<b>Cross-site requests</b> are requests that your browser is told to make by a website you are visiting to a completely different website. Though usually legitimate requests, they often result in advertising companies and other websites knowing your browsing habits, including specific pages you view throughout the day. Among the attacks that cross-site requests are used in, they are particularly dangerous with Cross-Site Request Forgery (CSRF) attacks where your browser is told to make a request to another website and that other website thinks you (the person) meant to make the request.
+*********************************************************************************
+<b> Frequently Asked Questions (FAQ)</b>
+*********************************************************************************
+
+<b>What is RequestPolicy?</b>
+
+RequestPolicy is an extension that improves the privacy and security of your browsing by giving you control over when cross-site requests are allowed by webpages you visit.
+
+<b>What are cross-site requests?</b>
+
+<i>Cross-site requests</i> are requests that your browser is told to make by a website you are visiting to a completely different website. Though usually legitimate requests, they often result in advertising companies and other websites knowing your browsing habits, including specific pages you view throughout the day. Among the attacks that cross-site requests are used in, they are particularly dangerous with Cross-Site Request Forgery (CSRF) attacks where your browser is told to make a request to another website and that other website thinks you (the person) meant to make the request.
 
 With RequestPolicy, the default for any cross-site request is to deny it. Users are notified when requests on the current page have been blocked (the status bar flag icon at the bottom right of your browser turns red). Clicking on this status bar flag icon gives you a menu where you can view and modify which requests are blocked and allowed. You can whitelist requests you approve of by origin site, destination site, or specific origin-to-destination.
 
-<b>More information on the reasons for using RequestPolicy:</b>
-<ul>
-<li><a href="https://requestpolicycontinued.github.io/#privacy">privacy reasons</a></li>
-<li><a href="https://requestpolicycontinued.github.io/#security">security reasons</a></li>
-</ul>
+<b>Why should I use RequestPolicy?</b>
 
-RequestPolicy is not a replacement for NoScript! Each focuses on different, important issues. For the best security, we recommend using both RequestPolicy and NoScript. More information on the difference between the two is available here:
-https://requestpolicycontinued.github.io/#faq-noscript
+RequestPolicy improves both privacy and security when browsing.
+Read more: <a href="https://requestpolicycontinued.github.io/#privacy">privacy reasons</a> • <a href="https://requestpolicycontinued.github.io/#security">security reasons</a>
+
+<b>Is RequestPolicy intended to be a replacement for <a href="https://addons.mozilla.org/en-US/firefox/addon/noscript/">NoScript</a>?</b>
+
+No. Each of the two add-ons focuses on different, important issues. For the best security, we recommend using both RequestPolicy and NoScript. <a href="https://requestpolicycontinued.github.io/#faq-noscript" title="more information on the difference between RequestPolicy and NoScript">Read more</a>.
+
 
 *********************************************************************************
-NOTE: As with any extension that blocks content, some websites will not work properly until you have allowed the required content. If a website you visit isn't working, you can use the RequestPolicy menu to allow the cross-site requests the website needs. After a short while of using RequestPolicy, you will have whitelisted all of the required cross-site requests for sites you frequently visit and you will use the RequestPolicy menu much less.
+<b>Usage Note</b>
+*********************************************************************************
+
+As with any extension that blocks content, some websites will not work properly until you have allowed the required content. If a website you visit isn't working, you can use the RequestPolicy menu to allow the cross-site requests the website needs. After a short while of using RequestPolicy, you will have whitelisted all of the required cross-site requests for sites you frequently visit and you will use the RequestPolicy menu much less.
+
 *********************************************************************************
 ```
 
