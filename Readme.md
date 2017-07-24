@@ -22,6 +22,8 @@ You might prefer to read this description in a text editor or on [AMO](https://a
 
 <b>If you have've got problems</b>, please visit our <a href="https://github.com/RequestPolicyContinued/requestpolicy">GitHub repository</a>. Make sure you've read our <a href="https://requestpolicycontinued.github.io/FAQ.html">FAQ</a> and the <a href="https://requestpolicycontinued.github.io/Contributing">contributing notes</a>. The ChangeLog is available <a href="https://github.com/RequestPolicyContinued/requestpolicy/blob/dev-1.0/ChangeLog.md">here</a>.
 
+<b>Regarding multiprocess compatibility and Firefox 57+</b>, I'm working on a WebExtension version of this add-on. If you want to help with the transition, please install the "Development Channel" version at the bottom of this page. Thank you.
+
 
 *********************************************************************************
 <b> Frequently Asked Questions (FAQ)</b>
