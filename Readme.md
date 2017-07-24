@@ -13,8 +13,6 @@ You might prefer to read this description in a text editor or on [AMO](https://a
 ```html
 *********************************************************************************
 
-This add-on is the continuation of <a href="https://addons.mozilla.org/en-US/firefox/addon/requestpolicy/">RequestPolicy</a>, which has been created by Justin Samuel until 2012.
-
 <b>Quick Start:</b>
 
 <ul>
@@ -54,6 +52,21 @@ No. Each of the two add-ons focuses on different, important issues. For the best
 *********************************************************************************
 
 As with any extension that blocks content, some websites will not work properly until you have allowed the required content. If a website you visit isn't working, you can use the RequestPolicy menu to allow the cross-site requests the website needs. After a short while of using RequestPolicy, you will have whitelisted all of the required cross-site requests for sites you frequently visit and you will use the RequestPolicy menu much less.
+
+
+*********************************************************************************
+<b>Version 0.5.x and Version 1.x</b>
+*********************************************************************************
+
+On "addons.mozilla.org", you can find three different RequestPolicy pages: "<a href="https://addons.mozilla.org/en-US/firefox/addon/requestpolicy/">RequestPolicy</a>", "<a href="https://addons.mozilla.org/en-US/firefox/addon/requestpolicy-legacy/">RequestPolicy v0.5 Legacy</a>" and "<a href="https://addons.mozilla.org/en-US/firefox/addon/requestpolicy-continued/">RequestPolicy Continued</a>" (this page)
+
+<ul>
+<li>"RequestPolicy" is the original version of this Add-on, created by Justin Samuel. Justin stopped working on RequestPolicy in 2012.</li>
+<li>"RequestPolicy v0.5 Legacy" is a fork of the original Add-on. Several compatibility issues have been fixed.</li>
+<li><b>"RequestPolicy Continued"</b> (this add-on) is a fork of <i>Version 1.x Beta</i> by Justin Samuel. Compared to above v0.5.x releases, it has an improved user interface, the possibility to subscribe to rules, and many more new features.</li>
+</ul>
+
+The main reason "v0.5 Legacy" is still maintained is because "v1.x" not yet supports the "strictness" feature, needed by some users, see <a href="https://github.com/RequestPolicyContinued/requestpolicy/issues/474">this github issue</a>.
 
 *********************************************************************************
 ```
