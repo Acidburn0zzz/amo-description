@@ -11,22 +11,43 @@ RequestPolicy is the project's [website](https://requestpolicycontinued.github.i
 You might prefer to read this description in a text editor or on [AMO](https://addons.mozilla.org/en-US/firefox/addon/requestpolicy-continued/).
 
 ```html
+<i>Read the description for this add-on below.</i>
+
+*********************************************************************************
+<b> Regarding Firefox Quantum (Version 57+) support</b>
+*********************************************************************************
+
+Unfortunately, as of beginning of April, 2018, RequestPolicy still isn't compatible with Firefox Quantum. To <b>be able to use RequestPolicy on Firefox</b>, you need to use <a href="https://www.mozilla.org/en-US/firefox/organizations/faq/"><abbr title="Firefox: Extended Support Release">Firefox ESR</abbr></a>.
+
+You can follow the development on github. <a href="https://github.com/RequestPolicyContinued/requestpolicy/issues/704">Issue #704</a> is the main issue for the WebExtension port. Help is always appreciated!
+
+<ul>
+<li>Be a <b>beta tester</b>: Install »<a href="https://sslsites.de/requestpolicy.256k.de/requestpolicy-nightly.xpi">the development version</a>«. Be sure to disable or uninstall all other RP/RPC versions.</li>
+<li>Be a <b>developer</b>: Just say hi on <a href="https://github.com/RequestPolicyContinued/requestpolicy/issues/826">issue #826</a> or pick one of the <a href="https://github.com/RequestPolicyContinued/requestpolicy/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">issues for starters</a>.</li>
+</ul>
+
+*********************************************************************************
+<b>Quick Start — Support — Contributing</b>
 *********************************************************************************
 
 <b>Quick Start:</b>
 
 <ul>
 <li><a href="https://requestpolicycontinued.github.io/Quickstart.html">Learn how to use RequestPolicy</a></li>
-<li><a href="https://requestpolicycontinued.github.io/FAQ.html">Frequently Asked Questions</a></li>
+<li><a href="https://requestpolicycontinued.github.io/FAQ.html">FAQ (Frequently Asked Questions)</a> — <i>short FAQ: see below</i></li>
 </ul>
 
-<b>If you have've got problems</b>, please visit our <a href="https://github.com/RequestPolicyContinued/requestpolicy">GitHub repository</a>. Make sure you've read our <a href="https://requestpolicycontinued.github.io/FAQ.html">FAQ</a> and the <a href="https://requestpolicycontinued.github.io/Contributing">contributing notes</a>. The ChangeLog is available <a href="https://github.com/RequestPolicyContinued/requestpolicy/blob/dev-1.0/ChangeLog.md">here</a>.
+<b>Support and Contributing:</b>
 
-<b>Regarding multiprocess compatibility and Firefox 57+</b>, I'm working on a WebExtension version of this add-on. If you want to help with the transition, please install the "Development Channel" version at the bottom of this page. Thank you.
-
+<ul>
+<li><a href="https://github.com/RequestPolicyContinued/requestpolicy">source code repository</a> — <i>GitHub</i></li>
+<li><a href="https://github.com/RequestPolicyContinued/requestpolicy/issues">issue tracker</a> — <i>bugs, feature requests, etc.</i></li>
+<li><a href="https://github.com/RequestPolicyContinued/requestpolicy/blob/dev-1.0/ChangeLog.md">ChangeLog</a> — <i>list of changes by version</i></li>
+<li><a href="https://requestpolicycontinued.github.io/Contributing">contributing notes</a></li>
+</ul>
 
 *********************************************************************************
-<b> Frequently Asked Questions (FAQ)</b>
+<b>Frequently Asked Questions (FAQ)</b>
 *********************************************************************************
 
 <b>What is RequestPolicy?</b>
